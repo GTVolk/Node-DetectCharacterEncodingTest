@@ -9,11 +9,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "chalk": "^2.4.1",
-    "chardet": "^0.7.0",
+    "chalk": "^3.0.0",
+    "chardet": "^0.8.0",
     "charset-detector": "0.0.2",
-    "detect-character-encoding": "^0.7.0",
+	"detect-character-encoding": "^0.8.0",
     "detect-charset": "^0.1.0",
-    "jschardet": "^1.6.0"
+    "jschardet": "^2.1.1"
   }
 }
