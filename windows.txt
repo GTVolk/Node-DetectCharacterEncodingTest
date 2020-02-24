@@ -1,0 +1,32 @@
+** Tesing module - chardet **
+Tesing ANSI. Result encoding is ISO-8859-1, expected Windows-1251 or Windows-1252, so test result: FAILED
+Tesing Unicode. Result encoding is UTF-16LE, expected UTF-16LE, so test result: PASSED
+Tesing Unicode Big Endian. Result encoding is UTF-16BE, expected UTF-16BE, so test result: PASSED
+Tesing UTF-8. Result encoding is UTF-8, expected UTF-8-BOM or UTF-8, so test result: PASSED
+Tesing UTF-8 without BOM. Result encoding is UTF-8, expected UTF-8, so test result: PASSED
+Tesing Windows 1251. Result encoding is ISO-8859-1, expected Windows-1251, so test result: FAILED
+******************************
+** Tesing module - charset-detector **
+Tesing ANSI. Result encoding is ISO-8859-1, expected Windows-1251 or Windows-1252, so test result: FAILED
+Tesing Unicode. Result encoding is UTF-16LE, expected UTF-16LE, so test result: PASSED
+Tesing Unicode Big Endian. Result encoding is UTF-16BE, expected UTF-16BE, so test result: PASSED
+Tesing UTF-8. Result encoding is UTF-8, expected UTF-8-BOM or UTF-8, so test result: PASSED
+Tesing UTF-8 without BOM. Result encoding is UTF-8, expected UTF-8, so test result: PASSED
+Tesing Windows 1251. Result encoding is ISO-8859-1, expected Windows-1251, so test result: FAILED
+******************************
+** Tesing module - detect-charset **
+Tesing ANSI. Result encoding is utf-8, expected Windows-1251 or Windows-1252, so test result: FAILED
+Tesing Unicode. Result encoding is utf-16le, expected UTF-16LE, so test result: PASSED
+Tesing Unicode Big Endian. Result encoding is utf-16be, expected UTF-16BE, so test result: PASSED
+Tesing UTF-8. Result encoding is utf-8-bom, expected UTF-8-BOM or UTF-8, so test result: PASSED
+Tesing UTF-8 without BOM. Result encoding is utf-8, expected UTF-8, so test result: PASSED
+Tesing Windows 1251. Result encoding is utf-8, expected Windows-1251, so test result: FAILED
+******************************
+** Tesing module - jschardet **
+Tesing ANSI. Result encoding is windows-1251, expected Windows-1251 or Windows-1252, so test result: PASSED
+Tesing Unicode. Result encoding is UTF-16LE, expected UTF-16LE, so test result: PASSED
+Tesing Unicode Big Endian. Result encoding is UTF-16BE, expected UTF-16BE, so test result: PASSED
+Tesing UTF-8. Result encoding is UTF-8, expected UTF-8-BOM or UTF-8, so test result: PASSED
+Tesing UTF-8 without BOM. Result encoding is UTF-8, expected UTF-8, so test result: PASSED
+Tesing Windows 1251. Result encoding is windows-1251, expected Windows-1251, so test result: PASSED
+******************************

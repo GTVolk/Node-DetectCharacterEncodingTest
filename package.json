@@ -1,0 +1,19 @@
+{
+  "name": "npm_test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "chardet": "^0.7.0",
+    "charset-detector": "0.0.2",
+    "detect-character-encoding": "^0.7.0",
+    "detect-charset": "^0.1.0",
+    "jschardet": "^1.6.0"
+  }
+}
